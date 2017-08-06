@@ -38,7 +38,7 @@ You have access to a couple of options, whose defaults are :
 
 ```js
 $(document).ready(function(){
-	$('[your-selector]').typeLighter({
+    $('[your-selector]').typeLighter({
 		highlightSpeed: 25,
 		typeSpeed: 100,
 		clearDelay: 350,
@@ -56,7 +56,7 @@ Let's have a quick look at each one of those :
 
 | Name      | Description | Default           |                                                                                                                                                                                                                                                                                                                  
 |-----------|----------|------------------------------------------|
-| highlighSpeed | The interval of time (in `ms`) before highlighting an additional character | 25 |
+| highlightSpeed | The interval of time (in `ms`) before highlighting an additional character | 25 |
 | typeSpeed | The interval of time (in `ms`) before typing an additional character | 100 |
 | clearDelay | The interval of time (in `ms`) between the completion of the highlighting and the removal of the highlighted text | 350 |
 | typeDelay | The interval of time (in `ms`) before typing the new text in | 200 |
