@@ -36,6 +36,7 @@ The highlighted characters will be wrapped inside a `span` tag with the class `t
 .typelighted {
     background-color: #175bcc;
     color: #f5f0ec;
+    /* any other styling */
 }
 ```
 
