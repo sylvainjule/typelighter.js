@@ -1,8 +1,8 @@
 # typeLighter.js
 
-This small plugin creates a highlighting and typing effect for any text element you'd like.
+This small plugin creates a highlighting and typing effect for any text element you'd like. Since [jquery.typer.js](https://github.com/layervault/jquery.typer.js) has been unmaintained for years, I figured I'd rather write my own. The main difference is that the highlight styling is set through CSS classes rather than JS options, allowing a richer styling.
 
-![screenshot-typelighter](https://user-images.githubusercontent.com/14079751/29002264-d4c2ad04-7a9e-11e7-96ad-059e41522cba.gif)
+![typelighter](https://user-images.githubusercontent.com/14079751/29272217-6771a464-80ff-11e7-91c5-2794d9139741.gif)
 
 ## Installation
 Include the latest minified file in your markup :
@@ -31,6 +31,13 @@ The plugin will automatically create an array from here, find the index of the c
 You also can set a single string as your `data-wordlist`.
 
 The highlighted characters will be wrapped inside a `span` tag with the class `typelighted`, so that it can be easily styled. You can also add custom classes, see below.
+
+```css
+.typelighted {
+    background-color: #175bcc;
+    color: #f5f0ec;
+}
+```
 
 ## Avanced usage
 
