@@ -2,7 +2,7 @@
 
 This small plugin creates a highlighting and typing effect for any text element you'd like. Since [jquery.typer.js](https://github.com/layervault/jquery.typer.js) has been unmaintained for years, I figured I'd rather write my own. The main difference is that the highlight styling is set through CSS classes rather than JS options, allowing a richer styling.
 
-![typelighter](https://user-images.githubusercontent.com/14079751/29272217-6771a464-80ff-11e7-91c5-2794d9139741.gif)
+![typelighter](https://user-images.githubusercontent.com/14079751/29272377-0b5b19f2-8100-11e7-845b-b1be8a18ffe3.gif)
 
 ## Installation
 Include the latest minified file in your markup :
